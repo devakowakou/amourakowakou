@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://akowakou.dev/sitemap.xml
+Sitemap: https://amourakowakou.me/sitemap.xml
