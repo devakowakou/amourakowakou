@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import { fileURLToPath } from 'url';
 
 export default defineConfig({
-  base: '/devakowakou.github.io/',
+  base: '/',
   plugins: [react()],
   resolve: {
     alias: {
