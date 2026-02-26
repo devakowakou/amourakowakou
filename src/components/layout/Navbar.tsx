@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import { personalInfo } from '../../config/personal';
 
 export const Navbar = () => {
@@ -11,9 +12,9 @@ export const Navbar = () => {
       <div className="container mx-auto flex justify-between items-start">
         
         {/* Logo */}
-        <div className="bg-white border-4 border-black p-2 shadow-neubrutalism pointer-events-auto cursor-pointer hover:translate-y-1 hover:shadow-none transition-all">
+        <Link to="/" className="bg-white border-4 border-black p-2 shadow-neubrutalism pointer-events-auto cursor-pointer hover:translate-y-1 hover:shadow-none transition-all block">
           <span className="font-black text-xl tracking-tighter">{personalInfo.name.split(' ')[0].toLowerCase()}</span>
-        </div>
+        </Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-4 pointer-events-auto">
@@ -47,6 +48,15 @@ export const Navbar = () => {
             transition={{ type: 'spring', damping: 20 }}
             className="fixed inset-y-0 right-0 w-3/4 bg-accent border-l-4 border-black pointer-events-auto shadow-neubrutalism-xl p-8 flex flex-col justify-center gap-8"
           >
+            {/* Close button */}
+            <button
+              title='close modal'
+              onClick={() => setIsOpen(false)}
+              className="absolute top-6 right-6 bg-black text-white border-4 border-white p-2"
+            >
+              <X size={24} />
+            </button>
+
              {['About', 'Work', 'Contact'].map((item) => (
               <a 
                 key={item}

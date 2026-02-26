@@ -17,10 +17,10 @@ export const Work = () => {
           transition={{ type: "spring", stiffness: 100, damping: 10 }}
           className="mb-20 text-right"
         >
-          <h2 className="text-6xl md:text-9xl font-black font-sans text-white text-stroke-2 stroke-black mb-4">
+          <h2 className="text-6xl md:text-9xl font-black font-sans text-black text-stroke-2 mb-4 inline-block text-left leading-[0.9]">
             SELECTED<br/>WORKS
           </h2>
-          <div className="h-4 w-full md:w-1/2 ml-auto bg-black shadow-neubrutalism-dark"></div>
+          <div className="h-4 w-full md:w-1/2 ml-auto bg-black mt-4"></div>
         </motion.div>
 
         <div className="space-y-24">
