@@ -41,6 +41,14 @@ jobs:
 
       - name: Build
         run: pnpm build
+      - name: Debug dist
+        run: |
+          echo "Current dir:"
+          pwd
+          echo "Listing root:"
+          ls -la
+          echo "Listing dist:"
+          ls -la dist || echo "dist not found"  
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
