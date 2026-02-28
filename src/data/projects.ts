@@ -39,5 +39,15 @@ export const projects: Project[] = [
     color: "bg-red-500",
     github: "https://github.com/devakowakou/neubrutalist-portfolio-remix",
     live: "https://amourakowakou.me"
-  }
+  },
+  {
+    title: "Platform de voyage",
+    category: "Platform Web App",
+    image: "/projects/voyagebj.png",
+    desc: "Une solution 100% béninoise pour voyager simplement. VoyageBJ révolutionne la réservation de billets de transport au Bénin. Notre plateforme connecte les voyageurs avec les meilleures compagnies de transport, offrant transparence, simplicité et sécurité.",
+    stack: ["React", "Node.js", "MongoDB"],
+    color: "bg-green-500",
+    github: "https://github.com/devakowakou/voyagebj",
+    live: "https://voyagebj.vercel.app"
+  },
 ];
