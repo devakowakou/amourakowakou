@@ -37,6 +37,7 @@ export const Work = () => {
                 <div className="border-4 border-black p-2 bg-white shadow-neubrutalism-xl hover:shadow-neubrutalism-sm transition-all duration-300 group cursor-pointer relative overflow-hidden">
                   <div className={`absolute inset-0 opacity-20 ${project.color} mix-blend-multiply pointer-events-none group-hover:opacity-0 transition-opacity`}></div>
                   <img 
+                    loading="lazy"
                     src={project.image} 
                     alt={project.title} 
                     className="w-full h-[300px] md:h-[400px] object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500"

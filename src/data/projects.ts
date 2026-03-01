@@ -13,7 +13,7 @@ export const projects: Project[] = [
   {
     title: "MatchDoc",
     category: "Platform Web App",
-    image: "/projects/matchdoc.png",
+    image: "/projects/matchdoc.webp",
     desc: "The mutual aid platform for finding lost or found administrative documents.",
     stack: ["React", "Laravel", "PostgreSQL"],
     color: "bg-purple-500",
@@ -23,7 +23,7 @@ export const projects: Project[] = [
   {
     title: "DID Annuaire",
     category: "Platform Web App",
-    image: "/projects/did-annuaire.png",
+    image: "/projects/did-annuaire.webp",
     desc: "DID Annuaire provides a secure, verifiable directory for organizations using did:web identifiers. Establish trust without intermediaries.",
     stack: ["Next.js", "Python", "PostgreSQL"],
     color: "bg-blue-500",
@@ -33,7 +33,7 @@ export const projects: Project[] = [
   {
     title: "PORTFOLIO DEMO",
     category: "PORTFOLIO",
-    image: "/projects/portfolio.png",
+    image: "/projects/portfolio.webp",
     desc: "A personal portfolio website showcasing projects, skills, and experience with a unique design and interactive features.",
     stack: ["React", "Next.js", "TypeScript"],
     color: "bg-red-500",
@@ -43,7 +43,7 @@ export const projects: Project[] = [
   {
     title: "Platform de voyage",
     category: "Platform Web App",
-    image: "/projects/voyagebj.png",
+    image: "/projects/voyagebj.webp",
     desc: "Une solution 100% béninoise pour voyager simplement. VoyageBJ révolutionne la réservation de billets de transport au Bénin. Notre plateforme connecte les voyageurs avec les meilleures compagnies de transport, offrant transparence, simplicité et sécurité.",
     stack: ["React", "Node.js", "MongoDB"],
     color: "bg-green-500",
