@@ -21,10 +21,10 @@ export const projects: Project[] = [
     live: "https://matchdoc.vercel.app"
   },
   {
-    title: "DID Annuaire",
+    title: "DID Directory",
     category: "Platform Web App",
     image: "/projects/did-annuaire.webp",
-    desc: "DID Annuaire provides a secure, verifiable directory for organizations using did:web identifiers. Establish trust without intermediaries.",
+    desc: "DID Directory provides a secure, verifiable directory for organizations using did:web identifiers. Establish trust without intermediaries.",
     stack: ["Next.js", "Python", "PostgreSQL"],
     color: "bg-blue-500",
     github: "https://github.com/devakowakou/did-annuaire",
@@ -37,7 +37,7 @@ export const projects: Project[] = [
     desc: "A personal portfolio website showcasing projects, skills, and experience with a unique design and interactive features.",
     stack: ["React", "Next.js", "TypeScript"],
     color: "bg-red-500",
-    github: "https://github.com/devakowakou/neubrutalist-portfolio-remix",
+    github: "https://github.com/devakowakou/amourakowakou",
     live: "https://amourakowakou.me"
   },
   {
@@ -47,7 +47,7 @@ export const projects: Project[] = [
     desc: "Une solution 100% béninoise pour voyager simplement. VoyageBJ révolutionne la réservation de billets de transport au Bénin. Notre plateforme connecte les voyageurs avec les meilleures compagnies de transport, offrant transparence, simplicité et sécurité.",
     stack: ["React", "Node.js", "MongoDB"],
     color: "bg-green-500",
-    github: "https://github.com/devakowakou/voyagebj",
+    github: "https://github.com/devakowakou/VoyageBJLanding",
     live: "https://voyagebj.vercel.app"
   },
 ];
