@@ -28,7 +28,7 @@ export const projects: Project[] = [
     stack: ["Next.js", "Python", "PostgreSQL"],
     color: "bg-blue-500",
     github: "https://github.com/devakowakou/did-annuaire",
-    live: "https://annuairedid-fe.qcdigitalhub.com"
+    live: "https://annuairedid.qcdigitalhub.com"
   },
   {
     title: "PORTFOLIO DEMO",
